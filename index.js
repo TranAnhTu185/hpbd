@@ -1,5 +1,5 @@
-const contentLetterSrart_actived = "Chào mừng 1 ngày đặc biệt của 1 cô bé đáng yêu" //Lời mở đầu cho bức thư
-const mainContentLetter = "Chúc em bé có 1 ngày sinh nhật thật vui vẻ, hạnh phúc và thật nhiều niêm vui đến với em  (♥_♥)" //Nội dung của bức thư
+const contentLetterSrart_actived = "Chào mừng 1 ngày đặc biệt của 1 cô bé đáng yêu và siêu cute" //Lời mở đầu cho bức thư
+const mainContentLetter = "Chúc em có 1 ngày sinh nhật thật vui vẻ, hạnh phúc và thật nhiều niêm vui đến với em và luôn luôn nụ cười xinh sắn đó mãi mãi trên môi em nhá ❤️❤️❤️ (♥_♥)" //Nội dung của bức thư
 
 // Gắn 1 đường link ảnh bất kì
 let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện trong lời mở đầu của bức thư

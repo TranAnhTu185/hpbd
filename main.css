@@ -60,6 +60,7 @@ body {
     padding: 20px;
     font-family: 'Dancing Script', cursive !important;
     color: #d26f72 !important;
+    text-align: center;
 }
 
 .myAI {
@@ -160,18 +161,51 @@ body {
 
 .test {
     left: 50%;
-    top: 45%;
+    top: 6%;
     position: absolute;
-    width: 100px;
-    height: 100px;
-    /*background-color: rgb(250, 147, 164);*/
-    background-image: url("./img/test.jpg");
+    width: 400px;
+    height: 400px;
+    background-image: url(./img/anhHue.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 8px;
     animation: animateBanner2 1s ease-in-out 1s infinite alternate;
     z-index: 5;
+    opacity: 0.7;
+}
+
+.heart {
+    position: relative;
+    z-index: 100;
+    top: 25%;
+}
+
+.avatar {
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    margin:0px auto;
+    margin-top:30px;
+    overflow: hidden;
+    animation :animate 20s infinite linear;
+}
+.avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes animate {
+    0%{
+        transform:rotate(0deg);
+    }
+    50%{
+        transform:rotate(360deg);
+    }
+    100%{
+        transform:rotate(0deg);
+    }
+    
 }
 
 @keyframes animateBalloon {
